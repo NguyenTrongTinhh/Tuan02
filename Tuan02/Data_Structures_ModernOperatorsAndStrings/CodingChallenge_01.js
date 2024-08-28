@@ -60,7 +60,6 @@ const game = {
     players.forEach(player => console.log(player));
   }
   
-  // Test data for printGoals function
   printGoals('Davies', 'Muller', 'Lewandowski', 'Kimmich');
   printGoals(...game.scored);
   
